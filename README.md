@@ -8,7 +8,7 @@
 ## 📁 이 레포지토리에 대해
 
 전체 프로젝트 중 **ECS Core / Component / System** 코드만 발췌하여 올렸습니다.  
-VContainer, NavMesh 등 외부 의존성으로 인해 단독 컴파일은 되지 않으며,  
+VContainer, NavMesh 등 외부 의존성으로 인해 단독 컴파일은 되지 않으며, Netcode를 이용한 멀티플레이도 추가되지 않았습니다.
 **ECS 설계 구조와 최적화 코드 확인 목적**으로 작성되었습니다.
 
 ---
@@ -143,7 +143,7 @@ builder.Register<MyNewSystem>(Lifetime.Singleton);
 
 ## 🛠 기술 스택
 
-- Unity 2022.3 LTS
+- Unity 6000.073f1
 - C#, Netcode (멀티플레이)
 - VContainer (DI)
 - DOTween, NavMesh
